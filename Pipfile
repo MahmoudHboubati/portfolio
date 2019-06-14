@@ -6,8 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+django = "==2.1"
+pylint-django = "*"
+django-tastypie = "*"
 gunicorn = "*"
 whitenoise = "*"
+psycopg2 = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"
