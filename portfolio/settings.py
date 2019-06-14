@@ -26,7 +26,7 @@ SECRET_KEY = 'js4e3z8va%e$l_-u0f7eu&4ic#0has_l_(ja8fsraef-2sb$xi'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    
+    'pure-temple-39471.herokuapp.com'
 ]
 
 
