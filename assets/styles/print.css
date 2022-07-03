@@ -1,0 +1,14 @@
+@media print {
+  body {
+    font-size: 10pt;
+    background-color: var(--bg);
+  }
+  main.container {
+    max-width: unset;
+    margin-top: 0;
+    box-shadow: none;
+  }
+  div {
+    break-inside: avoid;
+  }
+}
