@@ -17,6 +17,8 @@
   --success: #63b995;
   --warning: #f15946;
   --danger: #bc2c1a;
+
+  --golden: gold;
 }
 
 * {
@@ -31,6 +33,7 @@ body {
 body {
   font-size: 16px;
   font-family: "Titillium Web", sans-serif;
+  color: var(--dark);
 }
 
 h1 {
@@ -67,10 +70,10 @@ main.container {
 
 .section.section-head .section-head-line {
   position: absolute;
-  top: 5rem;
+  top: 20%;
   right: 0;
-  width: 60vw;
-  max-width: 38vw;
+  width: 60%;
+  max-width: 60%;
   background-color: var(--primary-light);
   font-size: 3rem;
   padding: 1rem 3rem;
@@ -109,7 +112,7 @@ main.container {
 }
 
 .avatar {
-  width: 12vw;
+  width: 25%;
   border-radius: 50%;
   border: 1rem solid var(--light);
 }
@@ -127,6 +130,11 @@ main.container {
   padding: 5px 10px;
   border-radius: 5px;
   width: fit-content;
+}
+
+.badge.badge-golden {
+  color: var(--dark);
+  background-color: var(--golden);
 }
 
 .badge-small {
