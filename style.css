@@ -34,10 +34,17 @@ body {
   font-size: 16px;
   font-family: "Titillium Web", sans-serif;
   color: var(--dark);
+  margin: 0;
 }
 
 h1 {
   font-size: 1.8rem;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .container {
@@ -419,4 +426,32 @@ main.container {
   background-image: url(assets/images/pattern.png);
   background-size: 30rem;
   opacity: 0.2;
+}
+
+span.highlight {
+  background-color: var(--golden);
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.nav-bar {
+  background-color: var(--primary-light);
+  min-height: 4rem;
+  color: var(--light);
+  padding: 0.5rem 1rem;
+  display: flex;
+}
+
+.nav-bar * {
+  color: var(--light);
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
 }
